@@ -21,6 +21,8 @@
 		20BF76801917D04D00129DCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BF76621917D04D00129DCD /* UIKit.framework */; };
 		20BF76881917D04D00129DCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20BF76861917D04D00129DCD /* InfoPlist.strings */; };
 		20BF768A1917D04D00129DCD /* SwitchLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BF76891917D04D00129DCD /* SwitchLaunchTests.m */; };
+		20BF76951917D0B800129DCD /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BF76931917D0B800129DCD /* launch@2x.png */; };
+		20BF76961917D0B800129DCD /* launchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20BF76941917D0B800129DCD /* launchImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		20BF76851917D04D00129DCD /* SwitchLaunchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchLaunchTests-Info.plist"; sourceTree = "<group>"; };
 		20BF76871917D04D00129DCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20BF76891917D04D00129DCD /* SwitchLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchLaunchTests.m; sourceTree = "<group>"; };
+		20BF76931917D0B800129DCD /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
+		20BF76941917D0B800129DCD /* launchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		20BF76641917D04D00129DCD /* SwitchLaunch */ = {
 			isa = PBXGroup;
 			children = (
+				20BF76931917D0B800129DCD /* launch@2x.png */,
+				20BF76941917D0B800129DCD /* launchImage@2x.png */,
 				20BF766D1917D04D00129DCD /* AppDelegate.h */,
 				20BF766E1917D04D00129DCD /* AppDelegate.m */,
 				20BF76701917D04D00129DCD /* Main.storyboard */,
@@ -229,8 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BF76771917D04D00129DCD /* Images.xcassets in Resources */,
+				20BF76951917D0B800129DCD /* launch@2x.png in Resources */,
 				20BF76691917D04D00129DCD /* InfoPlist.strings in Resources */,
 				20BF76721917D04D00129DCD /* Main.storyboard in Resources */,
+				20BF76961917D0B800129DCD /* launchImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
